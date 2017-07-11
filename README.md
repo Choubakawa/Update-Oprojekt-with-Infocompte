@@ -1,4 +1,4 @@
-# Update-Oprojekt-with-Infocompte
+# Update Oprojekt with Infocompte
 
 This script give you the possibility to update your profile on [Oprojekt] with the export of mines **without** BBCODE of Infocompte.
 
