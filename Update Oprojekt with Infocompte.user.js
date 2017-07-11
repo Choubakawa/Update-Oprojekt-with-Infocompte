@@ -4,7 +4,8 @@
 // @version      1
 // @description  Update mines of Oprojekt with the export of mines of Infocompte
 // @author       Choubakawa (Ogame.fr uni Fornax)
-// @match        https://*.oprojekt.net/mines/?id=*
+// @include      https://*.oprojekt.net/mines/?id=*
+// @supportURL   https://github.com/Choubakawa/Update-Oprojekt-with-Infocompte
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @updateURL    https://openuserjs.org/meta/Choubakawa/Update_Oprojekt_with_Infocompte.meta.js
 // @downloadURL  https://openuserjs.org/install/Choubakawa/Update_Oprojekt_with_Infocompte.user.js
