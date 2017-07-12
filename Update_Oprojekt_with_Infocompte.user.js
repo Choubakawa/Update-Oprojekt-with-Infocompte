@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Update Oprojekt with Infocompte
 // @namespace    https://openuserjs.org/scripts/Choubakawa/Update_Oprojekt_with_Infocompte
-// @version      1
+// @version      1.0.0.1
 // @description  Update mines of Oprojekt with the export of mines of Infocompte
 // @author       Choubakawa (Ogame.fr uni Fornax)
 // @include      https://*.oprojekt.net/mines/?id=*
@@ -26,19 +26,19 @@ var language = {
 * GENERATE FORM
 */
 function createForm() {
-    let form = $(`
-					<h3>` + language.title + `</h3>
-					<table width="100%" align="center">
-						<tr>
-							<td style='width:75%; height:100%' align="center">
-								<textarea id='infoCompte' style='width:100%; resize:vertical'></textarea>
-							</td>
-							<td style='width:25%; vertical-align:middle;' align="center">
-								<button id='update'>` + language.buttonLabel + `</button>
-							</td>
-						</tr>
-					</table>
-					`).insertAfter(title);
+    $(`
+    	<h3>` + language.title + `</h3>
+    	<table width="100%" align="center">
+    		<tr>
+    			<td style='width:75%; height:100%' align="center">
+    				<textarea id='infoCompte' style='width:100%; resize:vertical'></textarea>
+    			</td>
+    			<td style='width:25%; vertical-align:middle;' align="center">
+    				<button id='update'>` + language.buttonLabel + `</button>
+    			</td>
+    		</tr>
+    	</table>
+	`).insertAfter(title);
 }
 
 /*
@@ -101,6 +101,8 @@ function updateOprojekt() {
                         break;
                     case 5:
                         $("input", this).val(mines[i].temp);
+                        break;
+                    default:
                         break;
                 }
             }
