@@ -1,4 +1,4 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Choubakawa/Update-Oprojekt-with-Infocompte/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Choubakawa/Update-Oprojekt-with-Infocompte/?branch=master)[![Build Status](https://scrutinizer-ci.com/g/Choubakawa/Update-Oprojekt-with-Infocompte/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Choubakawa/Update-Oprojekt-with-Infocompte/build-status/master)
+![Build Status](https://scrutinizer-ci.com/g/Choubakawa/Update-Oprojekt-with-Infocompte/badges/build.png?b=master)
 # Update Oprojekt with Infocompte
 
 This script give you the possibility to update your profile on [Oprojekt] with the export of mines **without** BBCODE of Infocompte.
