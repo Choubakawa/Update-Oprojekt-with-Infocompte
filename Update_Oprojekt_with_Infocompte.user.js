@@ -9,6 +9,7 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @updateURL    https://openuserjs.org/meta/Choubakawa/Update_Oprojekt_with_Infocompte.meta.js
 // @downloadURL  https://openuserjs.org/install/Choubakawa/Update_Oprojekt_with_Infocompte.user.js
+// @license MIT
 // ==/UserScript==
 
 var addPlanetRow = window.unsafeWindow.addPlanetRow;
